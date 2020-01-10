@@ -1,0 +1,20 @@
+{
+  "name": "MERN-stack-app-course",
+  "version": "1.0.0",
+  "description": "Web app to create notes and create and track activities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Facucode/mern-app-activity-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Facucode/mern-app-activity-tracker/issues"
+  },
+  "homepage": "https://github.com/Facucode/mern-app-activity-tracker#readme"
+}
