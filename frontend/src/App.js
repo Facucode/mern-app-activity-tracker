@@ -9,6 +9,8 @@ import Navigation from './components/Navigation'
 import NotesList from './components/NotesList'
 import CreateNote from './components/CreateNote'
 import CreateUser from './components/CreateUser'
+import CreateActivity from './components/CreateActivity'
+import ActivitiesList from './components/ActivitiesList'
 function App() {
   return (
     <Router>
@@ -18,6 +20,9 @@ function App() {
       <Route path="/edit/:id" component={CreateNote} />
       <Route path="/create" component={CreateNote} />
       <Route path="/user" component={CreateUser} />
+      <Route path="/activities" component={ActivitiesList}/>
+      <Route path="/editactivity/:id" component={CreateActivity}/>
+      <Route path="/createactivity" component={CreateActivity}/>
       </div>
 
       </Router>

@@ -12,6 +12,6 @@ app.use(express.json())
 // routes
 app.use('/api/users',require('./routes/users') )
 app.use('/api/notes', require('./routes/notes'))
-
+app.use('/api/activities',require('./routes/activities'))
 
 module.exports = app
