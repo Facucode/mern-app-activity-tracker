@@ -1,2 +1,2 @@
 # MERN-stack-app-course
-App de notas creado con react , node y mongo
+Web app to create notes and create and track activities
